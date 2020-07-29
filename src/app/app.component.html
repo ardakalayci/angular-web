@@ -18,7 +18,7 @@
       <div class="container">
 
         <div class="input-group " *ngIf="duzenvar">
-          <input type="text" #text class="form-control">
+          <input type="text" placeholder="{{secilidizi.description}}" #text class="form-control">
           <div class="input-group-append">
             <button class="btn btn-primary" (click)="guncelle(text.value);text.value='';">Guncelle</button>
 
